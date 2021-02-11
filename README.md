@@ -12,9 +12,11 @@
 
 `npm i react-dom` instalar react-dom 
 
+`npm run dev` rodar o projeto 
+
 ### Roteiro
 
-* Adicionar no script do package
+* Adicionar linha no script do package
 
 "scripts": {
     "dev": "next dev",
