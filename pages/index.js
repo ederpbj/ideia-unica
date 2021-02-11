@@ -1,15 +1,32 @@
+import { useState } from 'react';
+
 import Link from 'next/link';
 
 function Home() {
     return (
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
         <div>
             <h1>Home</h1>
+            <Contador />
+            <h1>Teste</h1>
 
             <Link href="/sobre">
                 <a>Acessar página Sobre</a>
             </Link>
+        </div>
+    )
+}
+
+function Contador() {
+    const [contador, setContador] = useState(1);
+    function adicionarContador() {
+        setContador(contador + 1);
+    }
+
+    return (
+        <div>
+            <div>{contador}</div>
+            <button onClick={adicionarContador} >Adicionar</button>
         </div>
     )
 }

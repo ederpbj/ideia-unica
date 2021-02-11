@@ -14,6 +14,8 @@
 
 `npm run dev` rodar o projeto 
 
+`npm run vercel-build` instalar vercel
+
 ### Roteiro
 
 * Adicionar linha no script do package
