@@ -1,6 +1,11 @@
+import React from 'react';
 import { useState } from 'react';
-
 import Link from 'next/link';
+
+// Bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button } from 'reactstrap';
+
 
 function Home() {
     return (
@@ -13,6 +18,8 @@ function Home() {
             <Link href="/sobre">
                 <a>Acessar página Sobre</a>
             </Link>
+
+            <Button color="danger">Danger!</Button>
         </div>
     )
 }

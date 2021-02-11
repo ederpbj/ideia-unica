@@ -34,6 +34,8 @@
 
 `npm install --save reactstrap` react strap
 
+`npm install --save bootstrap`
+
 ## OUTRAS ALTERAÇÕES
 
 * Adicionar linha no script do package
