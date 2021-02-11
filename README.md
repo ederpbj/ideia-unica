@@ -22,6 +22,10 @@
 
 `git commit -m 'nova chamada de home'` comitar alterações no git
 
+`git checkout -b main` Retornar a branch main
+
+`git merge teste` unir alterações da branch teste com a main
+
 ### Roteiro
 
 * Adicionar linha no script do package
