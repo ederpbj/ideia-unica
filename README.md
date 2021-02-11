@@ -1,6 +1,8 @@
 # ideia-unica
 
-## Comandos
+## COMANDO CMD
+
+#### Comando iniciais
 
 `git clone https://github.com/ederpbj/ideia-unica.git` clonar repositório
 
@@ -16,7 +18,7 @@
 
 `npm run vercel-build` instalar vercel
 
-### Git hub
+#### Github
 
 `git checkout -b teste` Criar nova branch no git
 
@@ -28,11 +30,11 @@
 
 `git merge teste` unir alterações da branch teste com a main
 
---- Integrando com Reactstrapp
+#### Integrando com Reactstrapp
 
 `npm install --save reactstrap` react strap
 
-## Roteiro
+## OUTRAS ALTERAÇÕES
 
 * Adicionar linha no script do package
 
@@ -42,7 +44,7 @@
     "start": "next start" //produção
   },
 
-## Links
+## LINKS
 
 [Dicas git](https://blog.cedrotech.com/git-o-minimo-que-voce-precisa-saber-para-trabalhar-em-equipe-parte-2/)
 
