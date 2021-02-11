@@ -16,6 +16,8 @@
 
 `npm run vercel-build` instalar vercel
 
+### Git hub
+
 `git checkout -b teste` Criar nova branch no git
 
 `git add -A` adicionar alterações no git
@@ -26,13 +28,22 @@
 
 `git merge teste` unir alterações da branch teste com a main
 
-### Roteiro
+--- Integrando com Reactstrapp
+
+`npm install --save reactstrap` react strap
+
+## Roteiro
 
 * Adicionar linha no script do package
 
 "scripts": {
-    "dev": "next dev",
+    "dev": "next", //dev
+    "build": "next build", //construção
+    "start": "next start" //produção
+  },
 
 ## Links
 
 [Dicas git](https://blog.cedrotech.com/git-o-minimo-que-voce-precisa-saber-para-trabalhar-em-equipe-parte-2/)
+
+[React strap](https://reactstrap.github.io/)
