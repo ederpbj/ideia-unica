@@ -16,6 +16,12 @@
 
 `npm run vercel-build` instalar vercel
 
+`git checkout -b teste` Criar nova branch no git
+
+`git add -A` adicionar alterações no git
+
+`git commit -m 'nova chamada de home'` comitar alterações no git
+
 ### Roteiro
 
 * Adicionar linha no script do package
