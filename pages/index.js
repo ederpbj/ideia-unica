@@ -4,22 +4,30 @@ import Link from 'next/link';
 
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'reactstrap';
+import { Button, Alert, Container, Row, Col } from 'reactstrap';
 
 
 function Home() {
     return (
 
         <div>
-            <h1>Página inicial</h1>
-            <Contador />
-            <h1>Teste</h1>
+            <Container className="themed-container" fluid="sm">
+                <Row></Row>
+                <Alert color="primary">
+                    This is a primary alert — check it out!
+                    </Alert>
+                <h1>Página inicial</h1>
+                <Contador />
+                <h1>Teste</h1>
 
-            <Link href="/sobre">
-                <a>Acessar página Sobre</a>
-            </Link>
+                <Link href="/sobre">
+                    <a>Acessar página Sobre</a>
+                </Link>
 
-            <Button color="danger">Danger!</Button>
+                <Button color="danger">Danger!</Button>
+
+
+            </Container>
         </div>
     )
 }

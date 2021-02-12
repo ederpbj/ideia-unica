@@ -36,6 +36,8 @@
 
 `npm install --save bootstrap`
 
+`npm i --save @zeit/next/css` //não realizado, fazer junto com arquivo next.config.js
+
 ## OUTRAS ALTERAÇÕES
 
 * Adicionar linha no script do package
