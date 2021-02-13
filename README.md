@@ -8,6 +8,8 @@
 
 `npm init -y` inicia projeto node confirmando tudo
 
+`npm i next react react-dom` instalações iniciais
+
 `npm i next` instalar next 
 
 `npm i react` instalar React 
